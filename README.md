@@ -25,11 +25,11 @@ BookBot reads a text file, counts the words and characters, then prints a summar
 
 From the project root, run:
 
-python3 main.py <path_to_book>
+`python3 main.py <path_to_book>`
 
 Example:
 
-python3 main.py books/frankenstein.txt
+`python3 main.py books/frankenstein.txt`
 
 ## Output format
 
@@ -54,12 +54,6 @@ Only alphabetic characters are shown in the character section of the report.
 - Text is converted to lowercase before counting
 - Only alphabetic characters are displayed in the final report
 - The script requires exactly one argument: the file path
-
-## Troubleshooting
-
-Missing file path: Run with `python3 main.py <path_to_book>`
-
-File not found: Check that the file path is correct and the file exists.
 
 ## License
 
