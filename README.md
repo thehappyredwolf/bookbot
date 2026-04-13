@@ -35,6 +35,7 @@ python3 main.py books/frankenstein.txt
 
 BookBot prints output in this structure:
 
+```
 ============ BOOKBOT ============
 Analyzing book found at <path>...
 ----------- Word Count ----------
@@ -44,6 +45,7 @@ a: <count>
 b: <count>
 ...
 ============= END ===============
+```
 
 Only alphabetic characters are shown in the character section of the report.
 
